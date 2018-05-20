@@ -1,6 +1,8 @@
+<p align="center">
+  <img src="https://github.com/benchlab/benchx-media/raw/master/benos-logo.png" width="300px" alt="benOS Logo"/>
+</p> <br>
+
 # KeplerJS
-[![Build Status](https://travis-ci.org/benchlab/keplerjs.svg?branch=master)](https://travis-ci.org/benchlab/keplerjs)
-[![Coverage Status](https://coveralls.io/repos/benchlab/keplerjs/badge.svg?branch=master&service=github)](https://coveralls.io/github/benchlab/keplerjs?branch=master)
 
 KeplerJS Javascript library for interacting with Bench Network's Kepler Service.
 

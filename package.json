@@ -8,7 +8,9 @@
     "docs": "jsdoc ./src/ -d docs/ -r ./docs/readme.md",
     "preversion": "gulp test",
     "version": "gulp build",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "kepler",
@@ -89,6 +91,8 @@
     "eventsource": "^0.2.1",
     "lodash": "^4.0.1",
     "keplerbase": "1.0.0",
-    "toml": "^2.3.0"
-  }
+    "toml": "^2.3.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
